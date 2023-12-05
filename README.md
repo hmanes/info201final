@@ -5,14 +5,6 @@
 
  <br /> 
 
-![Summary table that shows the breakdown of white population percentages for the year 2000 and 2020](/Users/heidimanes/Desktop/info201_final/image 5.png)
-
- <br /> 
-
-![Summary table that shows the breakdown of white population vs. non white population for the year 2020](/Users/heidimanes/Desktop/info201_final/image 4.png)
-
- <br /> 
-
 ![Educational Attainment vs. Median Income in 2020 Scatterplot](/Users/heidimanes/Desktop/info201_final/image 3.png)
 
  <br /> 
