@@ -1,0 +1,389 @@
+#### Info 201 Final
+##### By: David V., Senay G., Alex A., & Heidi M.
+
+ <br /> 
+
+######### **Introduction**
+######### Gentrification, succinctly put, denotes the urban phenomenon wherein lower-income neighborhoods undergo a process of redevelopment, culminating in their transformation into more affluent and ostensibly "desirable" residential areas. Lower-income neighborhoods are typified by lower property values, ethnically diverse populations, diminished median income levels among residents, and reduced median rental rates. The gentrification process is marked by an appreciable escalation in property values, rendering the locality progressively unaffordable for its existing residents. Beyond the ostensibly benign facades of urban renewal and development, gentrification, at its core, manifests as a strategy leading to the widespread displacement of established communities. This transformative process is underpinned by a historically-rooted systemic bias, particularly evident in its disproportionate impact on non-white populations, with historically black neighborhoods bearing a pronounced brunt, as underscored by a recent comprehensive study conducted by Stanford University (Feder). The racially disparate consequences of gentrification can be contextualized within the broader historical narrative of race-based discrimination within the American workforce. It is posited that the ability of white populations to afford residence in gentrified locales, in contrast to their non-white counterparts, finds its origins in a protracted history of inequitable employment practices and discriminatory policies (Patten). This historical trajectory has contributed to a socio-economic dichotomy, where the systemic marginalization of non-white populations becomes entrenched, perpetuating their vulnerability to the adverse effects of gentrification. Considering the significant impact of education on income, it's crucial to explore how race intersects with educational attainment. Among various ethnic groups, the White population is ranked second, closely following Asians, in terms of educational achievements (U.S. Department Of The Treasury). The datasets, "Gentrification Index Data for NYC" and "Gentrification and demographic analysis — 2000 to 2017" (where NYC in the year 2020 alone will be analyzed), encompass pertinent measures. These datasets offer an opportunity to delve into the intricate relationship between race-related disparities, such as income and educational attainment, and the phenomenon of gentrification across different cities. It is imperative to analyze the extent of gentrification in NYC as there has been an increase in policymaking and funding to support gentrified communities: “to date, LISC NYC has invested over $2.87 billion, leveraging an additional $6 billion in low-income communities, resulting in over 38,000 affordable homes built and preserved as well as 1.8 million square feet of retail and community space created”(Urban Displacement Project). The overarching narrative that the data may unveil involves a more in-depth analysis of how factors like race, income, and education contribute to the dynamics of gentrification in urban areas as well as how policies and funding can potentially increase or decrease gentrification measures. Some of the queries that the datasets can potentially answer are as follows: 1) How does the white population’s median income in New York City (2000) compare to non-white populations in New York City (2020)? 2) To what extent has white populations increased in New York City alongside median rent? 3) Has educational attainment increased or decreased in white populations and has it had any impact on median household income? 4) Have non-white populations decreased overtime and is there a correlation to potential increases in median rent prices? 5) How does an increase in educational opportunities and focus on equity within this space across white and non-white populations translate to an increase in household median income? In regards to the significance of this topic, it is highly relevant to those in city planning and government factors. City planning and development companies and professionals are primary stakeholders in potential stories the datasets can offer as it can show the current gap in class and housing. Revealing this gap can inform planners and developers on how they can better navigate things such as low income housing and creating urban spaces that promote diversity, not eliminate it. It can also be argued that those who live in urban environments would be directly affected by gentrification, wealthy or not, as it decreases any given population’s diversity. Increases in gentrification can lead to a lack of cultural diversity, potential economic declines, or lack of social cohesion.
+
+ <br /> 
+
+######### **Citations(MLA):**
+
+######### Feder, Sandra. “Stanford Professor’s Study Finds Gentrification Disproportionately Affects Minorities.” Gentrification Disproportionately Affects Minorities, Stanford News, 1 Dec. 2020, news.stanford.edu/2020/12/01/gentrification-disproportionately-affects-minorities/. 
+
+######### Patten, Eileen. “Racial, Gender Wage Gaps Persist in U.S. despite Some Progress.” Pew Research Center, 1 July 2016, www.pewresearch.org/short-reads/2016/07/01/racial-gender-wage-gaps-persist-in-u-s-despite-some-progress/. 
+
+######### Urban Displacement Project, “New York – Gentrification and Displacement.” Urban Displacement Project, https://www.urbandisplacement.org/maps/new-york-gentrification-and-displacement/.
+
+ <br /> 
+
+######### **Data:**
+
+######### We used these two data sets as they provide good insights into our research question from the start of the millenia until 2020. This allows us to learn about gentrification and how gentrification has progressed, for better or for worse, in recent years. Also, these datasets share key variables such as education attainment, median income and housing costs, and racial breakdown. These variables are core to the question at hand and are core factors in gentrification as well. Thus, it was vital to find datasets that included these key variables. 
+
+Our 2000 New York City dataset was collected by researcher Glen Johnson, published in 2020. Glen Johnson is an Associate Professor at the City University of New York’s Department of Environmental, Occupational and Geospatial Health Sciences. This dataset has data regarding “an index of gentrification in New York City based on changes from 2000 to 2016 (Johnson)”. Johnson chose the dataset variables based on fulfilling the following requirements: there is some level of gentrification increasing over time, data is easily accessible from the US census, there is sufficient data for different tract IDs, tract ID boundaries are consistent over time, and there is a correlation higher than 0.5 between all variables (Johnson). Johnson chose 2000 as the base year as this was the beginning of the point where New York City saw gentrification rapidly increasing city-wide, whereas in previous years it was just in many of New York City’s neighborhoods (Johnson). 
+
+Johnson’s approach to gathering data has many benefits. Through his different requirements such as using accessible and reliable data, ensuring consistency with data characteristics over the time frame of data collection, and having a high correlation, he effectively enhances the validity and reliability of the research findings, and as a result, strengthens the overall credibility and applicability of our results. Though, Johnson’s data gathering method does carry some concerns. It might be argued that only using data that has a high correlation with each other may skew the results. Despite this, this is a fair requirement by Johnson as gentrification in New York City has been an established trend confirmed by numerous studies and research. Thus if data points away from this established trend of gentrification in New York City, the accuracy of that data could be questionable and introduce inaccuracy to the dataset.
+
+A major limitation that we faced within the 2000 New York City dataset is the limited racial demographic information. The dataset divided race into two categories, White and Non-White. While this does provide some racial information, it would have been more beneficial had it broken the Non-White category into specific races. In addition, the dataset does not offer median data for specific races, rather median data is for the tract ID as a whole. This means that we do not really see the income disparities between racial groups as the median is just for the population as a whole. Because our question focuses on equity between White and Non-White populations, having numbers specifically regarding different races would have allowed us to directly make comparisons between racial groups. Instead, we were limited to examining the change in White percentage versus Non-White percentage which still allowed for a racial analysis to some extent. 
+	Our 2020 New York City dataset was originally collected by the US government, specifically through the census, but was compiled together and processed by BuzzFeed News. The United States Census Bureau collects data through administrative agencies solely focused on collecting census data and government conducted surveys. The sample of the data comes from “housing units from the current Master Address File (MAF) (Census).” Due to the government’s data collection from a variety of sources, this holds some credibility for the dataset. Despite the trustworthiness of this dataset, there is a potential weakness in that the government does recycle data to “cut the cost of data collection, and also to reduce the burden on people who respond to our census and survey questions (Census).” This practice of recycling data may result in data not being as up to date as we would like. Especially with a city like New York that is ever changing and growing, recycling data can be a reasonable cause of concern. Though, recycling data is not an uncommon practice. This is likely a common trend especially with datasets encompassing a large group such as this one.
+	Similarly to the 2000 New York City dataset, a major limitation we faced was seeing specific median data for different racial groups. This dataset was more specific regarding race as it broke down racial proportions into White, Black, Asian, Native Hawaiian Pacific Islander, Native, bi or multiracial, and hispanic. Despite this, we did not have any information regarding median rent or income broken down into these groups, rather median rent and income was just attached to the population as a whole. Like our process with the 2000 dataset, we navigated this limitation through subtracting the White population from the Non-White population so it was consistent with the other dataset and easier to compare.
+	Both of these datasets are freely available online. The 2000 New York City dataset can be found through Harvard’s free dataset platform, Harvard Dataverse, and both of the processed and compiled 2020 dataset along with the original dataset can be found online. The census releases this information which researchers and the public can then use to perform analysis. Having free and easily accessible datasets allows for a larger audience of users to be reached. This creates less of a barrier of entry to doing data analysis and diving into the topic of gentrification through these free datasets. 
+
+ <br /> 
+
+#########  **Sources:**
+Bureau, US Census. “Combining Data – a General Overview.” Census.Gov, 15 Sept. 2022, www.census.gov/about/what/admin-data.html#:~:text=Some%20data%20are%20collected%20from,well%20as%20some%20commercial%20entities. 
+
+
+#########  Glen D. Johnson, Melissa Checker, Scott Larson & Hanish Kodali (2022) A small area index of gentrification, applied to New York City, International Journal of Geographical Information Science, 36:1, 137-157, DOI: 10.1080/13658816.2021.1931873
+
+ <br /> 
+
+#########  **Methodology**
+
+######### For the 2000 New York City data, we focused on the following variables: total population, portion of the population that is white alone, educational attainment, tract ID,, median income, and median family rent. For our second dataset, 2020 New York City data,  we included nearly the same variables: tract ID, total population, total population, median income, median home value, educational attainment, and population of specific races (White, Black, Native, Native Island Pacific Islander, Asian, two or more, some other race, Hispanic or Latino.) Since racial data in our 2020 New York City dataset was more specific, we had to broaden it into the two categories of the 2000 New York City data: White and Non-White. This came with the tradeoff of having less specific racial information but was necessary to maintain consistency.
+
+
+```{r, include  = FALSE}
+# Library Importation
+library(tidyverse) # dplyr, ggplot2, and other tidyverse packages are included
+library(readxl) # For reading Excel files
+
+# Reading the NYC 2000 data 
+suppressWarnings({
+  nyc_data2000 <- read_excel('/Users/heidimanes/Downloads/Data_NYC_Gentrification_2000_16.xlsx')
+  dim(nyc_data2000)
+})
+
+suppressWarnings({
+  nyc_data2020 <- read_excel('/Users/heidimanes/Downloads/census_tracts-_2_.xlsx')
+  dim(nyc_data2020)
+})
+
+
+# Dropping Rows where 'name' does not contain 'New York'
+nyc_data2020 <- subset(nyc_data2020, grepl(
+  'Census Tract', name, ignore.case = TRUE) & grepl('New York', name,
+                                                    ignore.case = TRUE))
+# Cleaning rows where input value is -66666 (a placeholder created by authors)
+nyc_data2020 <- nyc_data2020 %>%
+  mutate_all(~ ifelse(. == -666666666, 0, .))
+
+# Keep only the first 2095 rows of nyc_data2020
+# as the dataframes are different sizes
+print(nrow(nyc_data2000))
+print(nrow(nyc_data2020))
+nyc_data2020 <- nyc_data2020 %>%
+  slice(1:2095)
+
+# Dropping Columns not needed from 2020 data
+columns_to_drop_2020 <- c('name', "total_population_25_over",
+                          'city', 'metro_area')
+nyc_data2020 <- nyc_data2020[, !(names(nyc_data2020) %in% columns_to_drop_2020)]
+
+# Dropping Columns not needed from 2000 data
+columns_to_drop_2000 <- c('nta_name', "pop24_00", '20_34y00', 'totpop16',
+                          'pop24_16', 'NHW16', '20_34y16', 'College16',
+                          'mdfami16','mdrent16', 'NHW00_16', '20_34y00_16',
+                          'College00_16', 'mdfami00_16', 'mdrent00_16',
+                          'scores_raw', 'score_0.025',
+                          'score_0.5', 'score_0.975', 'A20_34y00_16',
+                          'A20_34y00', 'A20_34y16', '...10', '...18',
+                          '...24')
+nyc_data2000 <- nyc_data2000[, !(names(nyc_data2000) %in% columns_to_drop_2000)]
+
+# Renaming Columns for NYC 2020
+names(nyc_data2020)[names(nyc_data2020) == "geoid"] <- "tractid"
+names(nyc_data2020)[names(nyc_data2020) == "total_population"] <-
+  "total_population20"
+names(nyc_data2020)[names(nyc_data2020) == "median_income"] <- "median_income20"
+names(nyc_data2020)[names(nyc_data2020) == "median_home_value"] <-
+  "median_home_value20"
+names(nyc_data2020)[names(nyc_data2020) == "educational_attainment"] <-
+  "educational_attainment20"
+names(nyc_data2020)[names(nyc_data2020) == "white_alone"] <- "white_alone20"
+names(nyc_data2020)[names(nyc_data2020) == "black_alone"] <- "black_alone20"
+names(nyc_data2020)[names(nyc_data2020) == "native_alone"] <- "native_alone20"
+names(nyc_data2020)[names(nyc_data2020) == "native_hawaiian_pacific_islander"] <-
+  "native_hawaiian_pacific_islander20"
+names(nyc_data2020)[names(nyc_data2020) == "asian_alone"] <- "asian_alone20"
+names(nyc_data2020)[names(nyc_data2020) ==
+                      "some_other_race_alone"] <- "some_other_race_alone20"
+names(nyc_data2020)[names(nyc_data2020) == "two_or_more"] <- "two_or_more20"
+names(nyc_data2020)[names(nyc_data2020) ==
+                      "hispanic_or_latino"] <- "hispanic_or_latino20"
+
+# Renaming Columns for NYC 2000
+names(nyc_data2000)[names(nyc_data2000) == "totpop00"] <- "total_population00"
+names(nyc_data2000)[names(nyc_data2000) == "NHW00"] <- "white_alone00"
+names(nyc_data2000)[names(nyc_data2000) ==
+                      "colleg00"] <- "educational_attainment00"
+names(nyc_data2000)[names(nyc_data2000) == "mdfami00"] <- "median_income00"
+names(nyc_data2000)[names(nyc_data2000) == "mdrent00"] <- "median_rent00"
+
+```
+
+
+Including the total population allowed us to do our summary statistics which focused on which breaks down the white population percentages in 2000, in order to compute this having both the total population and white portion of the population is necessary to include. Including educational attainment was central to our topic. Our research question scopes in on the relationship between educational opportunities and household income. Due to the impact that income inequality has on gentrification and housing affordability, it was important to examine one of the most important determiners of income inequality: educational attainment. Tract ID was the basis that we merged the two datasets on as both datasets had this variable in common. Thus, including this allowed us to bring in both datasets together and make plots from the merged dataset. Lastly, median income and median family rent are also key to our question at hand. Median income and median family rent are both closely linked to causes of gentrification, thus it is important to investigate these variables to understand their relationship with educational attainment. Since we had to merge these two datasets, our focus was to find commonalities between the two datasets and then construct our analysis from there. This means not using most of the variables of both datasets which comes with the tradeoff of not having other variables that are important to gentrification, but this was a vital step to allow for smooth merging of the datasets.
+
+```{r, echo = FALSE}
+# Creating additional columns for income categories based on 2020 median income
+min_income <- min(nyc_data2020$median_income20, na.rm = TRUE)
+max_income <- max(nyc_data2020$median_income20, na.rm = TRUE)
+
+nyc_data2020$income_category20 <- cut(
+  nyc_data2020$median_income20,
+  breaks = c(min_income, 30000, 60000, 90000, max_income),
+  labels = c("Low Income", "Moderate Income", "High Income", "Very High Income"),  
+  include.lowest = TRUE
+) # Here we are establishing a categorical column
+
+# Creating additional columns for income categories based on 2000 median income
+min_income <- min(nyc_data2000$median_income00, na.rm = TRUE)
+max_income <- max(nyc_data2000$median_income00, na.rm = TRUE)
+
+nyc_data2000$income_category00 <- cut(
+  nyc_data2000$median_income00,
+  breaks = c(min_income, 30000, 60000, 90000, max_income),
+  labels = c("Low Income", "Moderate Income", "High Income", "Very High Income"),  
+  include.lowest = TRUE
+) 
+
+# Here we are establishing a numerical column
+# Calculating the sum of non-white populations within 2020
+nyc_data2020$non_white_population20 <- rowSums(nyc_data2020[, c("black_alone20",
+                                                                "native_alone20", "native_hawaiian_pacific_islander20",
+                                                                "asian_alone20", "some_other_race_alone20",
+                                                                "two_or_more20", "hispanic_or_latino20")],
+                                               na.rm = TRUE)
+
+```
+
+
+Our procedure for processing was fairly straightforward. Firstly, we  dropped the variables that were not including the ones above. Since the 2000 NYC dataset also has columns with 2016 data, we narrowed the scope of the dataset to only our variables for 2000. This avoided having cluttering datasets with data that was unnecessary to the scope of our topic. After this, we also renamed the variables we chose to improve readability and create consistency between the names of the two datasets, differentiated by the year of the dataset. We also got rid of missing values and values that were not logical. In the 2020 dataset, missing values were coded as -6666 so we filtered out this data to ensure accuracy. Also, our 2020 New York City dataset had data beyond New York so we ensured to filter for only New York City. Then, to prepare for the statistical methods we would use, we separated income into different categories: Low Income, Medium Income, High Income, and Very High Income. Lastly to have consistency between the two datasets, we filtered down the 2020 dataset to sample for 2065 rows as the 2000 dataset also had 2065 rows. Although this meant having a tradeoff of having less data, this allowed us to ensure both datasets have equal impacts on our report and one dataset is not overpowering the results. 
+
+```{r, echo = FALSE}
+
+# Calculating the breakdown of white and non-white populations in 2000
+nyc_data2000 <- nyc_data2000 %>%
+  mutate(non_white00 = total_population00 - white_alone00)
+
+# Creating a merged dataframe
+gentrification_data <- right_join(nyc_data2000, nyc_data2020, by = "tractid")
+head(gentrification_data)
+
+```
+
+```{r, echo=FALSE}
+# Creating a summary table that groups each income category and analyzes average educational attainment per income level and compares years 2000 to 2020.
+educational_attainment_income_2000 <- gentrification_data %>%
+  filter(!is.na(income_category00)) %>%
+  group_by(income_category00) %>%
+  summarise(
+    avg_educational_attainment00 = mean(educational_attainment00, na.rm = TRUE)
+  )
+
+educational_attainment_income_2020 <- gentrification_data %>%
+  filter(!is.na(income_category20)) %>%
+  group_by(income_category20) %>%
+  summarise(
+    avg_educational_attainment20 = mean(educational_attainment20, na.rm = TRUE)
+  )
+
+summary_educational_attainment_income <- left_join(educational_attainment_income_2000, educational_attainment_income_2020, by = c("income_category00" = "income_category20"))
+
+summary_educational_attainment_income <- summary_educational_attainment_income %>%
+  mutate(
+    percent_change = ((avg_educational_attainment20 - avg_educational_attainment00) / avg_educational_attainment00) * 100
+  )
+
+summary_educational_attainment_income
+```
+
+
+```{r, echo=FALSE}
+# Creating the summary table with the breakdown of white and non-white populations for 2000 and 2020
+summary_table_2000_2020 <- gentrification_data %>%
+  mutate(
+    white_percentage00 = ifelse(!is.na(white_alone00), (white_alone00 / total_population00) * 100, NA),
+    non_white_percentage00 = 100 - white_percentage00,
+    white_percentage20 = (white_alone20 / total_population20) * 100,
+    non_white_percentage20 = 100 - white_percentage20
+  ) %>%
+  summarise(
+    total_pop00 = sum(total_population00, na.rm = TRUE),
+    white_pop00 = sum(white_alone00, na.rm = TRUE),
+    non_white_pop00 = sum(total_population00 - white_alone00, na.rm = TRUE),
+    white_percentage00 = sum(white_pop00, na.rm = TRUE) / sum(total_population00, na.rm = TRUE) * 100,
+    non_white_percentage00 = 100 - white_percentage00,
+    total_pop20 = sum(total_population20, na.rm = TRUE),
+    white_pop20 = sum(white_alone20, na.rm = TRUE),
+    non_white_pop20 = sum(total_population20 - white_alone20, na.rm = TRUE),
+    white_percentage20 = sum(white_pop20, na.rm = TRUE) / sum(total_population20, na.rm = TRUE) * 100,
+    non_white_percentage20 = 100 - white_percentage20
+  )
+
+summary_table_vertical <- summary_table_2000_2020 %>%
+  pivot_longer(
+    cols = everything(),
+    names_to = c(".value", "Year"),
+    names_sep = "(?<=\\D)(?=\\d)"
+  )
+
+print(summary_table_vertical)
+
+```
+
+For our statistical methods we did a scatter plot with an analysis table, smoothed trend line regression, and a boxplot. Through an analysis table, we saw the change in white percentage between 2000 and 2020 and also the change in percentage of average educational attainment in different income groups. This table lets us recognize trends in the racial makeup of New York City and how it has changed, something key in understanding the effect of gentrification on racial groups. It also allowed us to analyze income groups and how education attainment has changed within these income groups over time. Including two smoothed trend line regressions allowed us to compare the “Educational Attainment” variable with “Median Income”. This statistical method allowed us to have a visual representation of the relationship between these two variables. The scatter plot with smoothed trend lines made it easier to recognize the overall direction and strength of the association, examining whether higher educational attainment correlates with higher median income. A boxplot of median rent and median income complemented our scatter plot. This helped understanding the distribution of different income levels versus rent costs. Through these two statistical methods we were able to examine the relationship between educational attainment, income, and rent, and how these tie into the bigger picture of gentrification in New York City.
+
+```{r, echo = FALSE}
+# Educational Attainment vs. Median Income in 2020 Scatterplot
+ggplot(gentrification_data, aes(x = educational_attainment20, y = median_income20)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "Educational Attainment vs. Median Income in 2020 in NYC",
+       x = "Educational Attainment",
+       y = "Median Income")
+```
+
+
+```{r, include = FALSE}
+cat("The average median income data point for the year 2020 is:",mean(nyc_data2020$median_income20), "\n")
+cat("The average educational attainment data point for the year 2020 is:",mean(nyc_data2020$educational_attainment20), "\n")
+```
+
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE}
+# Educational Attainment vs. Median Income in 2000 Scatterplot in NYC
+ggplot(gentrification_data, aes(x = educational_attainment00, y = median_income00)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "Educational Attainment vs. Median Income in 2000 in NYC",
+       x = "Educational Attainment",
+       y = "Median Income")
+```
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE}
+# Median Rent by Income Category in 2000 Boxplot
+data_no_na <- gentrification_data[complete.cases(
+  gentrification_data$income_category00), ]
+ggplot(data_no_na, aes(x = income_category00, y = median_rent00)) +
+  geom_boxplot() +
+  labs(title = "Median Rent by Income Category in 2000",
+       x = "Income Category",
+       y = "Median Rent") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r, include=FALSE}
+cat("The average median rent data point for the year 2000 is:",mean(nyc_data2000$median_rent00), "\n")
+```
+
+ <br /> 
+
+#########  **Results:**
+
+######### Understanding the effects of gentrification within a community involves countless moving pieces and external factors making such an analysis complex and often convoluted. With this in mind, by focusing on both median rent across different income categories and tying this to educational attainment based on median income we were able to better analyze and extract various insights to see how this issue has played out, specifically in New York. First and foremost, our methodology included filtering and cleaning each data set, before merging on tractID and then creating a histogram analyzing income categories, various scatter plots along with tables.
+
+Analyzing each of the tables presented within the dataset, we first wanted to understand how the white population percentage has changed form the year 2000 to 2020, as gentrification directly affects groups that are non-white. Thus, we created a summary table that analyzes numerous variables including total population, white population and non-white population in the year 2000 versus 2020.
+
+```{r, echo = FALSE}
+# Creating the summary table with the breakdown of white and non-white populations for 2000 and 2020
+summary_table_2000_2020 <- gentrification_data %>%
+  mutate(
+    white_percentage00 = ifelse(!is.na(white_alone00), (white_alone00 / total_population00) * 100, NA),
+    non_white_percentage00 = 100 - white_percentage00,
+    white_percentage20 = (white_alone20 / total_population20) * 100,
+    non_white_percentage20 = 100 - white_percentage20
+  ) %>%
+  summarise(
+    total_pop00 = sum(total_population00, na.rm = TRUE),
+    white_pop00 = sum(white_alone00, na.rm = TRUE),
+    non_white_pop00 = sum(total_population00 - white_alone00, na.rm = TRUE),
+    white_percentage00 = sum(white_pop00, na.rm = TRUE) / sum(total_population00, na.rm = TRUE) * 100,
+    non_white_percentage00 = 100 - white_percentage00,
+    total_pop20 = sum(total_population20, na.rm = TRUE),
+    white_pop20 = sum(white_alone20, na.rm = TRUE),
+    non_white_pop20 = sum(total_population20 - white_alone20, na.rm = TRUE),
+    white_percentage20 = sum(white_pop20, na.rm = TRUE) / sum(total_population20, na.rm = TRUE) * 100,
+    non_white_percentage20 = 100 - white_percentage20
+  )
+
+summary_table_vertical <- summary_table_2000_2020 %>%
+  pivot_longer(
+    cols = everything(),
+    names_to = c(".value", "Year"),
+    names_sep = "(?<=\\D)(?=\\d)"
+  )
+
+print(summary_table_vertical)
+
+```
+
+######### Based on the results it is clear that the white percentage increases by 5.8% in this span of 20 years, which directly causes non-white populations to decrease by the exact same amount. This is incredibly significant and directly supports evidence suggesting that gentrification within New York has become more severe and intensified as minority groups have been pushed out and replaced by white populations.
+
+After analyzing and extracting such significant results, it became beneficial to look at educational attainment and understand this correspondence to different income categories, which can be classified as “Low Income”, “Median Income”, “High Income”, and “Very High Income”. Looking at these results below, it becomes clear that across categories the overall percent of average educational attainment increased across low and moderate income levels the most, with the moderate income level increasing by 38.5% and very high income levels actually decreasing by 29.7%. 
+
+```{r, echo = FALSE}
+# Median Rent by Income Category in 2000 Boxplot
+data_no_na <- gentrification_data[complete.cases(
+  gentrification_data$income_category00), ]
+ggplot(data_no_na, aes(x = income_category00, y = median_rent00)) +
+  geom_boxplot() +
+  labs(title = "Median Rent by Income Category in 2000",
+       x = "Income Category",
+       y = "Median Rent") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+######### This is largely due to the fact that new policies, such as the New York State ESSA plan, have been implemented by the city of New York to allocate funding to low income areas to ensure a higher quality of education. After establishing and understanding the correlation between population breakdown, income levels and educational attainment, visualizing the results became the best approach to identify and understand how income levels and educational attainment contribute to gentrification. 
+
+In an attempt to understand how income affects overall rent prices and thus ties to quality of education, based on the assumption that higher income areas have better opportunities for education (outlined prior within the tables), a box plot was created to visualize this effect. The box plot (outlined below) suggests that median rent within the ‘very high income’ category is roughly $1,200 while median income in the ‘low income’ category is roughly $600. Contrasting this 100% difference between both the highest and lowest categories, an analysis of educational attainment relative to median income was carried out. Seen in the scatter plot below, it is clear that in the year 2000 generally the higher the median income, the better the quality of education
+ 
+
+```{r, echo = FALSE}
+# Educational Attainment vs. Median Income in 2000 Scatterplot in NYC
+ggplot(gentrification_data, aes(x = educational_attainment00, y = median_income00)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "Educational Attainment vs. Median Income in 2000 in NYC",
+       x = "Educational Attainment",
+       y = "Median Income")
+
+```
+
+######### Tying this back to the tables and original assumption that areas with very high income will have better educational opportunities, directly contributing to gentrification. When contrasting this graph to that of 2020, we see a flat section within educational attainment at roughly the $50,000 median income level. This suggests that in the year 2000, educational attainment could increase at this level despite having income stay constant. Compared to the 2020 data (outlined below), we see this is no longer true and instead to attain a better education, individuals need to have a higher income. Although this is the case, the issue has become slightly better with increased governmental efforts and funding allocated to the public New York school district
+
+```{r, echo = FALSE}
+# Educational Attainment vs. Median Income in 2020 Scatterplot
+ggplot(gentrification_data, aes(x = educational_attainment20, y = median_income20)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title = "Educational Attainment vs. Median Income in 2020 in NYC",
+       x = "Educational Attainment",
+       y = "Median Income")
+
+```
+
+######### All in all, this data and results have proved that educational attainment over the years has improved, although it is still heavily skewed towards groups that have a higher income. Through the demographic table analysis we see that minority groups have been pushed out and instead white populations have replaced these groups thus we can logically create the assumption that this displacement of minority populations and increased rent has resulted in a lack of educational opportunities within low income areas. This proves that gentrification from 2000 to 2020 in  New York has become more intensified, although despite this being the case it has gotten better in recent years due to governmental policies and increased funding efforts within school districts.  
+
+ <br /> 
+ 
+######### **Findings:**
+
+######### Extracting the results from our data, and putting it into context we can see that it has directly answered the initial question and addressed the issues regarding the effects of gentrification within New York. Specifically, our results tell us that gentrification from the year 2000 to 2020 has gotten significantly worse in New York largely due to the displacement of minority groups and recent influx of white populations (increase of 5.8% from 2000 to 2020). When analyzing rent prices, we see that those that have a higher income typically pay higher rent, which can be assumed that they are living in areas that have access to better educational attainment. This can be said because again, our data suggests that as median income increases and people can afford to live in nicer homes with better access to school districts, the education attainment increases. This directly establishes that gentrification has drastically altered the landscape within New York, to where educational opportunities are significantly weaker within low-income areas because of the recent displacement of such populations and increasing median incomes. As mentioned prior, although this is the case recent efforts by the city of New York have attempted to fund opportunities and programs within low-income areas to uplift such communities which has contributed to the recent increase in education attainment. 
+
+When extracting insights from the data and understanding how each component fits into the greater story, it becomes critical to understand the limitations of the data. First and foremost, gentrification is a very complex issue that involves countless variables so making conclusions only based on demographic data, median income and education attainment is very difficult. Not only is this the case, but certain neighborhoods are affected by gentrification more than others, thus when analyzing the New York data as a whole this becomes another limiting factor. Lastly, this issue is constantly changing and the datasets are limited to 2020; since there have been many significant changes and events which is yet another limiting factor. Considering all of this, our claims are still worthwhile and informative but only paint a piece of this very complex picture.
+	
+Under ideal conditions, having a more complete dataset that encompasses the most recent data (2023) and includes countless other variables would help paint a clearer picture. These variables would be broken down on a housing market, demographic, economic, social, cultural, infrastructure, displacement, and political/policy basis. Some examples of variables to extract and analyze within these categories include and are not limited to having access to a direct breakdown for each demographic subset, age distribution, eviction rates, funding within school districts, employment rates, social networks, zoning laws, tax incentives, etc. By having access to each of these variables on a per neighborhood basis the story would be more complete as we would be able to touch on countless categories rather than just a white versus non-white breakdown, education attainment and different median income levels. Regardless of the importance of understanding the effect of numerous variables in this very complex issue, our results still paint a very important story and indicate that gentrification has indeed become worse in New York from 2000 to 2020. 
+ 
+ <br />
+ 
+######### **Summary:**
+ 
+######### In summation, the merged dataset, despite a few limitations, yields valuable insights into the interplay between trends in educational attainment and median income, both in 2000 and 2020, contributing to our understanding of gentrification dynamics. The data underscores a consistent correlation, revealing that populations with higher educational attainment tend to exhibit elevated median incomes in both examined years. Notably, an upward trajectory is observed in both educational attainment and median income from 2000 to 2020. It is crucial to recognize that this increase is likely tied to broader economic shifts not captured by the datasets, prohibiting definitive conclusions. Nonetheless, these results hold significance, particularly for stakeholders in public education, especially in the finance sector. The findings suggest that by expanding educational opportunities, such as through financial aid and scholarships for lower-income individuals, there is potential to cultivate a skilled workforce that can contribute to economic growth, increased public funding through income tax, and enhanced commerce. This underscores the urgency for urban planners and policymakers to abandon dismissive attitudes towards the potential of those in low-income areas. Investing in programs that facilitate educational access proves more cost-effective than displacing and gentrifying populations, which often leads to homelessness or repeated displacement. It is imperative to recognize the untapped potential within these communities and redirect resources towards initiatives that empower individuals through education. Policymakers, urban planners, and educators let these findings be a catalyst for change. Through actively listening to gentrified populations, city leadership can adopt more inclusive urban development strategies that prioritize affordable housing, community engagement, and sustainable economic growth and advocate for and implement curricula that reflect the diverse needs of students. By fostering an inclusive learning environment, we can equip individuals with the skills and knowledge necessary to thrive in the evolving economic landscape
+
+
