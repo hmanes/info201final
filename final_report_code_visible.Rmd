@@ -270,6 +270,9 @@ cat("The average median rent data point for the year 2000 is:",mean(nyc_data2000
 
 ```
 
+Ultimately in our final dataset, we combined these two datasets through the shared variable tract ID. There are a total of 2095 observations in our final merged dataset. The rows in this dataset represent values and data about different factors that influence gentrification such as educational attainment, median income, White population, etc. Our relevant variables are:  total population, White population, non-White population, educational attainment, tract ID,, median income, median family rent, and income category. Most of these variables are coded numerically but variables regarding race and income category are categorical. There are also some illogical values as median rent and income sometimes appears as -6666666. There were a total of 121 non-plausible values we had to clean from our dataset before performing analysis.
+
+
  <br /> 
 
 #########  **Results:**
